@@ -1,0 +1,742 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    height: 680px;
+    position: relative;
+    overflow: hidden;
+}
+
+.background video {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.org {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.organization {
+    font-family: cursive;
+    background-color: #FFC700;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    margin-right: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul {
+    margin-top: 12px;
+}
+
+li {
+    height: 40px;
+    padding: 10px;
+    list-style: none;
+    position: relative;
+    margin-top: 5px;
+    background-color: rgb(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+
+li:hover {
+    color: white;
+    background-color: #3EA6FF;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+li a:hover {
+    color: white
+}
+
+.org ul li {
+    display: none;
+}
+
+.organization:hover {
+    background-color: black;
+    color: white;
+    border-left: 5px solid #FFC700;
+    border-right: 5px solid #FFC700;
+}
+
+.organization:hover ul li  {
+    display: block;
+}
+
+.org:hover ul li {
+    display: block;
+}
+
+.maintext {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 22%;
+}
+
+.maintext p {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    line-height: 80px;
+}
+
+.name {
+    position: absolute;
+    bottom: 23%;
+    right: 20%;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+}
+
+
+
+.takecare {
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    background-color: #000000;
+}
+
+.text1 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.earth {
+    font-size: 45px;
+    font-family: monospace;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 50px;
+    color: white;
+}
+
+.provide {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: sans-serif;
+    line-height: 50px;
+    color: white;
+}
+
+.firstbox {
+    background-color: #000000;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.withyou {
+    color: white;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.first {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 260px;
+    background-color: #42f74b;
+    font-family: sans-serif;
+    height: 320px;
+    margin-bottom: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(75, 252, 31, 0.281);
+    border: 1px solid black;
+}
+
+
+.img1 {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.mergin {
+    margin-bottom: 15px;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    font-family: monospace;
+}
+
+.para1 {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #282828;
+}
+
+.box2 {
+    background-color: tomato;
+    box-shadow: 5px 5px 5px rgba(255, 38, 0, 0.432);
+}
+
+.img2 {
+    margin-bottom: 23px;
+}
+
+.box3 {
+    background-color: cornflowerblue;
+}
+
+.img3 {
+    width: 160px;
+    height: 160px;
+}
+
+.img4 {
+    margin-bottom: 27px;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.banner video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.banner h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 150px;
+    font-weight: 1000;
+    font-family: monospace;
+    text-transform: uppercase;
+    line-height: 180px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    mix-blend-mode: multiply;
+}
+
+.planet {
+    font-weight: 1000;
+    font-size: 230px;
+    margin-bottom: 100px;
+}
+
+.treeproject {
+    width: 100%;
+    height: 1000px;
+    background-image: url(vector.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 450px;
+}
+
+.side2 {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.list {
+    width: 80%;
+    height: 600px;
+    padding-top: 30px;
+}
+
+.list h2 {
+    font-family: monospace;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.ptree {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tree {
+    width: 400px;
+    height: 280px;
+}
+
+.ptree p {
+    width: 350px;
+    font-family: sans-serif;
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 30px;
+    letter-spacing: 1px;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-image: url(grass.png);
+    background-size: 200px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.foot {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.foot h2 {
+    width: 60%;
+    font-family: cursive;
+}
+
+.foot h2 span {
+    font-family: sans-serif;
+    font-weight: 1000;
+    margin-right: 10px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.foot a:hover {
+    color: white;
+    background-color: #0F90F3;
+}
+
+
+
+.mrbeast {
+    width: 100%;
+    height: 500px;
+    background-color: #f8f9fae7;
+    display: flex;
+    align-items: center;
+}
+
+.mrbox {
+    width: 470px;
+    height: 370px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px ;
+    padding-left: 50px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+    
+}
+
+.mrbox p {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(63, 63, 63);
+}
+
+.mrbox p a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.million {
+    width: 90%;
+    height: 70%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1194px) {
+.maintext {
+    top: 30%;
+    left: 20%;
+}
+        
+.maintext p {
+    font-size: 35px;
+    line-height: 70px;
+}
+        
+.name {
+    font-size: 40px;
+    bottom: 25%;
+    right: 18%;
+}
+}
+
+
+@media (max-width: 950px) {
+.maintext {
+    top: 30%;
+    left: 20%;
+}
+    
+.maintext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+    
+.name {
+    font-size: 30px;
+    bottom: 35%;
+    right: 25%;
+}
+
+.treeproject {
+    height: 1140px;
+}
+
+.ptree p {
+    padding-top: 10px;
+}
+
+}
+
+@media (max-width: 800px) {
+.maintext {
+    top: 30%;
+    left: 20%;
+}
+    
+.maintext p {
+    font-size: 30px;
+    line-height: 60px;
+}
+    
+.name {
+    font-size: 32px;
+    bottom: 30%;
+    right: 15%;
+}
+
+.banner h3 {
+    font-size: 150px;
+    line-height: 170px;
+}
+    
+.planet {
+    font-size: 200px;
+}
+
+.list {
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+}
+    
+}
+    
+@media (max-width: 670px) {
+.maintext {
+    top: 30%;
+    left: 15%;
+}
+    
+.maintext p {
+    font-size: 20px;
+    line-height: 50px;
+}
+    
+.name {
+    font-size: 25px;
+    bottom: 38%;
+    right: 22%;
+}
+
+.banner h3 {
+    font-size: 100px;
+    line-height: 120px;
+}
+.planet {
+    font-size: 150px;
+}
+            
+}
+
+@media (max-width: 500px) {
+
+.org {
+    margin-top: 10px;
+    margin-right: 1px;
+}
+
+.organization {
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+li a {
+    font-size: 12px;
+}
+
+.takecare {
+    line-height: 20px;
+}
+
+.text1 {
+    width: 70%;
+}
+.earth {
+    font-size: 35px;
+}
+
+.first {
+    width: 80%;
+}
+
+.box {
+    height: 340px;
+}
+
+.banner video {
+    width: 100%;
+    height: 70%;
+}
+
+.banner h3 {
+    font-size: 60px;
+    line-height: 100px;
+}
+.planet {
+    font-size: 108px;
+}
+
+.tree {
+    width: 300px;
+    height: 200px;
+}
+
+.foot {
+    width: 90%;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.foot h2 {
+    font-size: 17px;
+}
+
+.foot h2 span {
+    margin-right: 0;
+}
+
+.mrbox {
+    width: 400px;
+    height: 370px;
+    padding: 20px;
+}
+
+.mrbox p {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+}
+
+.mrbeast {
+    height: 400px;
+}
+
+.million {
+    height: 60%;
+}
+
+.maintext {
+    top: 30%;
+    left: 15%;
+}
+
+.maintext p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.name {
+    font-size: 20px;
+    bottom: 48%;
+    right: 20%;
+}
+
+}
+
+@media (max-width: 400px) {
+.maintext {
+    top: 30%;
+    left: 15%;
+}
+
+.maintext p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.name {
+    font-size: 15px;
+    bottom: 45%;
+    right: 20%;
+}
+
+.tree {
+    width: 250px;
+    height: 150px;
+}
+
+.withyou {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 260px;
+    height: 300px;
+}
+
+.para1 {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.mrbox {
+    width: 300px;
+    height: 300px;
+}
+
+.foot h2 {
+    font-size: 15px;
+}
+
+.banner h3 {
+    font-size: 50px;
+}
+
+.banner h3 span {
+    font-size: 80px;
+}
+
+.foot a {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px ;
+}
+
+}
+
+@media (max-width: 308px) {
+.maintext {
+    top: 30%;
+    left: 15%;
+}
+    
+.maintext p {
+    font-size: 12px;
+    line-height: 30px;
+}
+    
+.name {
+    font-size: 14px;
+    bottom: 48%;
+    right: 20%;
+}
+
+.mrbox {
+    width: 270px;
+    height: 300px ;
+}
+.tree {
+    margin-top: 50px;
+}
+
+.ptree p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+}
+
+
+
+
+
+
+
+    
+
+
+
+
