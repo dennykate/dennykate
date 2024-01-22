@@ -1,6 +1,6 @@
 ![](https://komarev.com/ghpvc/?username=dennykate)
 
-![10,000](https://profile-counter.glitch.me/dennykate/count.svg)
+![10000](https://profile-counter.glitch.me/dennykate/count.svg)
 
 ![](https://github-readme-stats.vercel.app/api?username=dennykate&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=dennykate&theme=dark&hide_border=false)<br/>
