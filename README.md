@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=dennykate)
+![](https://komarev.com/ghpvc/?username=dennykate&color=orange)
 
 ![](https://github-readme-stats.vercel.app/api?username=dennykate&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=dennykate&theme=dark&hide_border=false)<br/>
