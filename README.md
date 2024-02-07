@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hello 👋 , I'm Aung Myo Chit!</h1>
+  <h1>Hello 👋 , I'm Aung Myo Chit</h1>
 </div>
 
 <div align="center">
@@ -9,7 +9,7 @@
 </div>
 
 #### <img src="https://i.postimg.cc/3Ny8YxRZ/working.png" width="24px"/> About Me :
-Hello there! I'm a passionate and detail-oriented Full Stack Engineer with a deep love for crafting elegant solutions to complex problems. My journey in the world of technology began with a fascination for turning ideas into functional, user-friendly applications.
+Hello there! I'm a passionate Full Stack Engineer with a deep love for crafting elegant solutions to complex problems. My journey in the world of technology began with a fascination for turning ideas into functional, user-friendly applications.
 
 
 #### <img src="https://i.postimg.cc/HWFLtRB7/virtual-reality.png" width="20px" margin-right="4px"/> Main Tech Stacks :
