@@ -5,7 +5,6 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=dennykate&color=orange" alt="Profile Views">
   <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me Coffee">
-  <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal">
 </div>
 
 #### <img src="https://i.postimg.cc/3Ny8YxRZ/working.png" width="24px"/> About Me :
